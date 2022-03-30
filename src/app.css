@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.puntosContainer{
+    background-color: black;
+    position: fixed;
+    top: -25px;
+}
+.border-r{
+    border-right: 1px solid white;
+}
+.border-l{
+    border-left: 1px solid white;
+}
+.border-b{
+    border-bottom: 1px solid white;
+}
+.puntos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.btnSumaA{
+ border: 1px solid white;
+  position: fixed;
+  top:45%;
+  left: 5px;
+  background-color: black;
+
+}
+.btnRestaA{
+    position: fixed;
+    top:55%;
+    left: 5px;
+    background-color: white;
+    color: black !important;
+  }
+.btnSumaB{
+    border: 1px solid white;
+position: fixed;
+top:45%;
+right: 5px;
+background-color: black;
+
+}
+.btnRestaB{
+    position: fixed;
+    top:55%;
+    right: 5px;
+    background-color: white;
+    color: black !important;
+}
+
+.btnPuntos{
+    border: none;
+font-size: 50px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: background .2s;
+}
+.btnPuntos:active{
+    background-color: brown;
+    color: white;
+}
+.palito{
+    margin: 10px 3px;
+    height: 10rem;
+    
+}
+.btnFondo{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.palitosContainer{
+    width: 8rem;
+}
